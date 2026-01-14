@@ -1,10 +1,10 @@
-#This repository provides a comprehensive pipeline for processing RNA-Seq data, from raw FASTQ files to differential expression analysis and pathway enrichment. The pipeline uses various bioinformatics tools like FASTQC, Trimmomatic, STAR, DESeq2, and clusterProfiler.
+This repository provides a comprehensive pipeline for processing RNA-Seq data, from raw FASTQ files to differential expression analysis and pathway enrichment. The pipeline uses various bioinformatics tools like FASTQC, Trimmomatic, STAR, DESeq2, and clusterProfiler.
 
-#Requirements
+Requirements
 
-#Operating System: Linux (recommended)
+Operating System: Linux (recommended)
 
-#Tools:
+Tools:
 
 FASTQC - Quality control for raw reads
 Trimmomatic - Adapter trimming and quality filtering
@@ -14,7 +14,7 @@ DESeq2 - Differential expression analysis (R package)
 clusterProfiler - Pathway enrichment analysis (R package)
 biomaRt - Gene annotation (R package)
 
-#Libraries (R)
+Libraries (R)
 
 DESeq2
 pheatmap
@@ -25,7 +25,7 @@ AnnotationDbi
 clusterProfiler
 org.Ce.eg.db (for C. elegans data)
 
-#Pipeline Overview
+Pipeline Overview
 
 This pipeline performs the following steps:
 
@@ -38,7 +38,7 @@ Gene Annotation with biomaRt: Annotate differentially expressed genes with gene 
 Visualization: Generate a volcano plot to visualize differential expression results.
 Pathway Analysis with clusterProfiler: Perform enrichment analysis to identify enriched biological pathways.
 
-#Directory Structure
+Directory Structure
 Ensure that your working directory has the following structure:
 
 
