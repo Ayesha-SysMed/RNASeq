@@ -1,11 +1,7 @@
 This repository provides a comprehensive pipeline for processing RNA-Seq data, from raw FASTQ files to differential expression analysis and pathway enrichment. The pipeline uses various bioinformatics tools like FASTQC, Trimmomatic, STAR, DESeq2, and clusterProfiler.
 
-Requirements
 
 Operating System: Linux (recommended)
-
-Tools:
-
 FASTQC - Quality control for raw reads
 Trimmomatic - Adapter trimming and quality filtering
 STAR - RNA-Seq read alignment
